@@ -1,0 +1,46 @@
+name: Bug report
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: e.g. v0.4.1 or a commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and the agent you were using with it (e.g. Claude Code version and model), if relevant.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: Relevant output, with any secrets or private paths removed.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I've searched existing issues and this isn't a duplicate.
+          required: true

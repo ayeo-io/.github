@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/orgs/ayeo-io/discussions
+    about: Questions and ideas are best started as a discussion.
+  - name: Report a security problem
+    url: https://github.com/ayeo-io/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not as an issue.

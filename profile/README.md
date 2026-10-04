@@ -5,16 +5,26 @@
   </picture>
 </p>
 
-ayeo (say "aye-o") builds open-source tools for people who make software, starting with how changes get specified, built and reviewed when you're working alongside an AI.
+ayeo (say "aye-o") builds open-source tools for AI-assisted software development.
+
+Coding agents are quick. The hard part is knowing what to build, how much process a change deserves, and whether the output can be trusted. That's the problem we work on.
 
 ### Projects
 
-**[compass](https://github.com/ayeo-io/compass)** - adaptive, spec-driven development for Claude Code. Compass sizes up each change by risk, familiarity, size and intent, then picks just enough process to deliver it well. Apache 2.0.
+**[compass](https://github.com/ayeo-io/compass)** - adaptive spec-driven development for Claude Code. Compass sizes up each change by risk, familiarity, size and intent, then picks the right amount of process for it. A typo fix stays light. A risky rewrite gets specs, tests and review. Apache 2.0.
 
 More to come.
 
+### How we build
+
+- **Enough process for the work at hand. No more.** Ceremony should scale with risk, not habit.
+- **Specs before code** when the change is worth specifying. Agents do better work against a clear target, and so do people.
+- **Humans own the result.** AI writes plenty of our code. A person reviews, understands and answers for every change that gets merged.
+- **Checkable over aspirational.** If a rule matters, a tool should be able to enforce it.
+- **Open by default.** Our tools are open source, and we try to show our working.
+
 ### Get involved
 
-Issues and pull requests are welcome on any of our repos. Have a look at the open issues, or start a discussion if you're not sure where something fits.
+Issues, discussions and pull requests are welcome. Start with our [contributing guide](https://github.com/ayeo-io/.github/blob/main/CONTRIBUTING.md) and our [AI-assisted contribution policy](https://github.com/ayeo-io/.github/blob/main/AI_POLICY.md).
 
 [ayeo.io](https://ayeo.io)
