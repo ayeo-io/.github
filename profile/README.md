@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayeo-io/.github/main/assets/logo/ayeo-io-wordmark-dark.svg">
-    <img alt="ayeo.io" src="https://raw.githubusercontent.com/ayeo-io/.github/main/assets/logo/ayeo-io-wordmark-light.svg" height="68">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayeo-io/.github/main/assets/logo/ayeo-wordmark-dark.svg">
+    <img alt="ayeo" src="https://raw.githubusercontent.com/ayeo-io/.github/main/assets/logo/ayeo-wordmark-light.svg" height="64">
   </picture>
 </p>
 
